@@ -1,0 +1,6 @@
+Backend/.env
+Backend/db.sqlite3
+Backend/venv/
+Backend/__pycache__/
+.venv/
+Frontend/node_modules/

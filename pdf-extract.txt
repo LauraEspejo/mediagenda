@@ -1,0 +1,141 @@
+
+--- Page 1 ---
+INGENIERIA WEB CORTE III  
+GUIA DE INGENIERIA WEB  
+ING: JAIRO ARMANDO SALCEDO ARANDA  
+ 
+ING:  JAIRO  ARMANDO  SALCEDO  ARANDA   
+TALLER PREPARACION QUIZ I  CRUCIGRAMA  
+ 
+• Evolución de la web hacia aplicaciones dinámicas.  
+• Arquitectura que separa cliente y servidor.  
+• Organización que regula estándares web.  
+• Técnica de reutilización de código en componentes.  
+• Parte del desarrollo encargada de la lógica del sistema.  
+• Interfaz que permite comunicación entre sistemas.  
+• Sistema para gestionar versiones de código.  
+• Metodología basada en iteraciones y me jora continua.  
+• Tecnología que permite desplegar aplicaciones en internet.  
+• Cualidad del software fácil de mantener.  
+• Norma que define calidad del software.  
+• Proceso de identificación de amenazas.  
+• Experiencia centrada en el usuario.  
+• Pruebas para validar funcionamiento del software.  
+• Principio de protección de datos (confidencialidad).  
+• Organización que identifica vulnerabilidades web.  
+• Seguridad aplicada desde el diseño.  
+• Técnica de protección mediante codificación de datos.  
+• Control de acceso a sistemas.  
+• Enfoque que previene errores desde el inicio.  
+ 
+TALLER MODELO DE CASO  
+ 
+SISTEMA WEB DE GESTIÓN DE CITAS MÉDICAS PARA UNA CLÍNICA  
+Objetivo:  Desarrollar una aplicación web funcional que permita a pacientes 
+agendar citas y a la clínica gestionarlas, aplicando conceptos de desarrollo 
+moderno, calidad del software y seguridad web.  
+1. Contexto del caso  
+Una clínica necesita digitalizar su proceso de asignación de citas, ya que 
+actualmente se realiza de forma manual, generando errores, demoras y pérdida 
+de información. El sistema debe permitir registro de usuarios, agendamiento, 
+consulta de citas y administración interna.  
+2. Fase 1: Definición y arquitectura  
+Conceptos aplicados:  Cliente -Servidor, Backend, Modularidad  
+
+--- Page 2 ---
+INGENIERIA WEB CORTE III  
+GUIA DE INGENIERIA WEB  
+ING: JAIRO ARMANDO SALCEDO ARANDA  
+ 
+ING:  JAIRO  ARMANDO  SALCEDO  ARANDA   
+Se diseña una arquitectura cliente -servidor donde:  
+• El frontend permite a los usuarios interactuar con el sistema (agendar 
+citas).  
+• El backend gestiona la lógica, disponibilidad de horarios y 
+almacenamiento de datos.  
+Se divide el sistema en módulos:  
+• Módulo de usuarios  
+• Módulo de citas  
+• Módulo administrativ o  
+Entregable:  Diagrama de arquitectura del sistema.  
+3. Fase 2: Desarrollo del sistema  
+Conceptos aplicados:  API, Git, Scrum  
+El equipo crea un repositorio en Git para el control de versiones . 
+Se define una API que permit e: 
+• Registrar usuarios  
+• Crear citas  
+• Consultar disponibilidad  
+Se trabaja bajo metodología Scrum en ciclos cortos (sprints):  
+• Sprint 1: registro e inicio de sesión  
+• Sprint 2: agendamiento de citas  
+• Sprint 3: panel administrativo  
+Entregable:  Aplicación funci onal con control de versiones.  
+4. Fase 3: Despliegue  
+Concepto aplicado:  Nube  
+La aplicación se despliega en un servicio en la nube para que esté disponible en 
+línea . 
+Se realizan pruebas de acceso desde distintos dispositivos.  
+Entregable:  URL del sistema en funcionamiento.  
+
+--- Page 3 ---
+INGENIERIA WEB CORTE III  
+GUIA DE INGENIERIA WEB  
+ING: JAIRO ARMANDO SALCEDO ARANDA  
+ 
+ING:  JAIRO  ARMANDO  SALCEDO  ARANDA   
+ 
+5. Fase 4: Calidad del s oftware  
+Conceptos aplicados:  ISO 25010, Testing, UX, Mantenibilidad  
+Se evalúan los siguientes aspectos:  
+• Usabilidad (facilidad para agendar citas)  
+• Rendimiento del sistema  
+• Facilidad de mantenimiento del código  
+Se ejecutan pruebas:  
+• Pruebas funcionales (reg istro, login, citas)  
+• Pruebas de errores  
+Entregable:  Informe de calidad del sistema.  
+ 
+6. Fase 5: Seguridad web  
+Conceptos aplicados:  OWASP, Cifrado, Autenticación, Confidencialidad, 
+Security by Design  
+Se implementan medid as de seguridad:  
+• Autenticación de usuarios mediante credenciales  
+• Cifrado de contraseñas  
+• Protección de datos personales (confidencialidad)  
+Se revisan posibles vulnerabilidades basadas en OWASP . 
+Se integra la seguridad desde el desarrollo (security by des ign). 
+Entregable:  Informe de seguridad implementada.  
+ 
+7. Fase 6: Gestión de riesgos  
+Conceptos aplicados:  Análisis de riesgos, Prevención  
+Se identifican riesgos como:  
+• Acceso no autorizado  
+
+--- Page 4 ---
+INGENIERIA WEB CORTE III  
+GUIA DE INGENIERIA WEB  
+ING: JAIRO ARMANDO SALCEDO ARANDA  
+ 
+ING:  JAIRO  ARMANDO  SALCEDO  ARANDA   
+• Pérdida de datos  
+• Fallos del sistema  
+Se proponen medidas preventivas como copias de seguridad y validación de 
+datos.  
+Entregable:  Matriz de riesgos.  
+8. Fase 7: Evaluación final  
+Se valida que el sistema:  
+• Cumple con los requerimientos func ionales  
+• Es seguro  
+• Presenta buena experiencia de usuario  
+Se realiza la presentación final del proyecto mostrando el funcionamiento del 
+sistema.  
+9. Resultados esperados  
+El grupo de ingeniería web será capaz de:  
+• Aplicar arquitectura cliente -servidor en un caso real  
+• Desarrollar soluciones utilizando APIs y control de versiones  
+• Implementar medidas básicas de seguridad  
+• Evaluar la calidad del software  
+• Trabajar con metodologías ágiles  
+• El docente evaluara todo por CHECKLIST.  
+• ENTREGA FINAL MIERCOLES 6 DE MAYO 2026  
+ 
