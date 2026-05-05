@@ -6,7 +6,7 @@ databases:
 services:
   - type: web
     name: mediagenda-backend
-    runtime: python
+    env: python
     rootDir: Backend
     buildCommand: pip install -r requirements.txt
     startCommand: python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
@@ -22,8 +22,9 @@ services:
       - key: ALLOWED_HOSTS
         value: ".onrender.com,localhost,127.0.0.1"
 
-  - type: static
+  - type: web
     name: mediagenda-frontend
+    env: static
     rootDir: Frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
