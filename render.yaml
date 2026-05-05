@@ -22,7 +22,7 @@ services:
       - key: ALLOWED_HOSTS
         value: ".onrender.com,localhost,127.0.0.1"
 
-  - type: static_site
+  - type: static
     name: mediagenda-frontend
     rootDir: Frontend
     buildCommand: npm install && npm run build
